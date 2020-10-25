@@ -1,0 +1,21 @@
+{
+  "name": "create-tel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bufferhelper": "^0.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "iconv-lite": "^0.6.2",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.2",
+    "winston": "^3.3.3"
+  }
+}

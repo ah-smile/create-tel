@@ -1,0 +1,31 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/new-index/new-index"
+		}, {
+			"path": "pages/index/index"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "号码生成器",
+		// #16a085
+		"navigationBarBackgroundColor": "#B50103",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#b50e03",
+		"color": "#ccc",
+		"list": [{
+			"text": "新方式",
+			"pagePath": "pages/new-index/new-index",
+			"iconPath": "static/home.png",
+			"selectedIconPath": "static/home-active.png"
+		}, {
+			"text": "旧方式",
+			"pagePath": "pages/index/index",
+			"iconPath": "static/news.png",
+			"selectedIconPath": "static/news-active.png"
+		}]
+	}
+}
